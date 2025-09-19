@@ -45,7 +45,7 @@
 /* Var Alert Prompt Conditional */
 // make a string variable for favorite ice cream flavor, prompt user for it
 // make an integer variable for number of scoops on the cone, prompt user for it
-// if scoosp is creater than three, alert ("Max 3 scoops!")
+// if scoops is creater than three, alert ("Max 3 scoops!")
 // otherwise alert "You want " scoops " scoops of " flavor
 
 /* PET KATAS */

@@ -6,17 +6,16 @@
 
 /* Var Alert */
 // make a string variable named color, set it equal to your favorite color.
-var color = "blue";
 // alert the message" "My favorite color is " plus the variable name, outside the quotes.
-alert("My favorite color is " + color + ".")
 
 /* Var Alert Prompt */
 // make a string variable for color, but prompt the user for their favorite color.
 // alert color plus " is a nice color!" - note the space in the quotes.
 
+
 /* Var Alert Prompt Conditional */
 // make a string variable for color, prompt the user for their favorite
-// if user enters "black" alert "Black is not really a color." 
+// if user enters "black" alert "Black is not really a color." ]
 // otherwise alert color " is a nice color!"
 
 /* AGE KATAS */
@@ -26,7 +25,9 @@ alert("My favorite color is " + color + ".")
 // make a string variable for name, set it to your name
 // alert name is age years old
 
+
 /* Var Alert Prompt */
+
 // make an integer variable for age, prompt user for their age
 // make a string variable for name, prompt user for their name
 // alert name is age years old
@@ -47,8 +48,9 @@ alert("My favorite color is " + color + ".")
 /* Var Alert Prompt Conditional */
 // make a string variable for favorite ice cream flavor, prompt user for it
 // make an integer variable for number of scoops on the cone, prompt user for it
-// if scoosp is creater than three, alert ("Max 3 scoops!")
+// if scoops is creater than three, alert ("Max 3 scoops!")
 // otherwise alert "You want " scoops " scoops of " flavor
+
 
 /* PET KATAS */
 
@@ -62,12 +64,11 @@ alert("My favorite color is " + color + ".")
 // make a variable for pet type, prompt user for it 
 var pet = prompt("What kind of pet do you have?");
 // make a variable for pet name, prompt user for it
-var pname = prompt("What's their name?")
+var pname = prompt("What's their name?");
 // alert "You have a pet type named pet name
-
+alert("You have a " + pet + " named " + pname + ".")
 // if pet is a dog, say "I like dogs, too!"
-if (pet == "dog") {
-alert("I like dogs, too!")    
-};
+if (pet == "dog") alert("I like dogs, too!");
 // if it is a cat, say "I'm allergic to cats"
+if (pet == "cat") alert("I'm allergic to cats.");
 // If it is not a dog or a cat, say "what an interesting pet!"
