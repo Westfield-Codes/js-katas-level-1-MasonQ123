@@ -102,3 +102,25 @@ var pname = prompt("What's their name?")
 alert("You have a " + pet + " named " + pname);
 
 /* Prompt with Conditional */
+/* Var Alert Prompt Conditionals */
+// make a variable for pet type, prompt user for it 
+var pet = prompt("What kind of pet do you have?");
+// make a variable for pet name, prompt user for it
+var pname = prompt("What's their name?");
+// alert "You have a pet type named pet name
+alert("You have a " + pet + " named " + pname + ".")
+// if pet is a dog, say "I like dogs, too!"
+if (pet == "dog")  {
+    alert("I like dogs, too!")
+}
+else{ 
+    alert("What an interesting pet!")
+    }
+// if it is a cat, say "I'm allergic to cats"
+        if (pet == "cat")  {
+        alert("I'm allergic to cats.")
+        }
+        else{ 
+    alert("What an interesting pet!")
+    }
+// If it is not a dog or a cat, say "what an interesting pet!"
