@@ -124,3 +124,25 @@ else{
     alert("What an interesting pet!")
     }
 // If it is not a dog or a cat, say "what an interesting pet!"
+
+/* Guess */
+function main(){
+    // alert("Guess My Number")
+    let answer = Math.floor(Math.random()*100+1);
+    let guess = 0;
+    alert(answer);
+    while(answer != guess) {
+        
+        let guess = prompt("Guess");
+        alert("You guessed " + guess + ".");
+        if(guess == answer){
+            alert("You win!");
+        }
+        else if(guess > answer){
+            alert("Too high!");
+        }
+        else{
+            alert("Too low!");
+        };
+    };
+}
